@@ -4,12 +4,12 @@ Bu, WebSockets tabanlı C# ile yazılmış [Euro Truck Simulator 2](http://www.e
 
 ## Ana Özellikler
 
-- Ücretsiz ve açık kaynak
-- Otomatik kurulum
-- Telemetri verileri için REST API
-- WebSockets'e dayalı canlı telemetri veri akışı için HTML5 kontrol paneli uygulaması 
-- Özel kontrol paneli görünümleri için güçlü destek (görünüm eğitimi dahil)
-- HTTP protokolü aracılığıyla belirli bir URL'ye yayınlanan telemetri verileri
+- Ücretsiz ve açık kaynak ile kendi kontrol panelinizi oluşturup kullanabilirsiniz
+- Otomatik kurulum menüsü bulunmaktadır
+- Telemetri verileri için REST API kullanılır
+- WebSockets'e dayalı canlı telemetri veri akışı için HTML5 kontrol paneli uygulaması bulunur
+- Özel kontrol paneli görünümleri için güçlü destek (görünüm eğitimi dahil) bulunur
+- HTTP protokolü aracılığıyla belirli bir URL'ye yayınlanan telemetri verileri desteklenir
 
 ## KURULUM NOTLARI
 
@@ -27,25 +27,28 @@ Bu, WebSockets tabanlı C# ile yazılmış [Euro Truck Simulator 2](http://www.e
 ### Test edilen tarayıcılar
 
 - Mobile Safari çalıştıran iOS 8+ (şiddetle tavsiye edilir, en iyi kullanıcı deneyimi)
-- En son Firefox, Chrome veya IE11 (Firefox veya Chrome önerilir)
-- Android 4+ (4.4+ şiddetle tavsiye edilir) Varsayılan veya Chrome tarayıcılar (performans sorunlarınız varsa SSS'ye bakın)
+- En son Firefox, Chrome, Microsoft edge veya IE11 (Firefox veya Chrome önerilir)
+- Android 4+ (4.4+ şiddetle tavsiye edilir) Varsayılan veya Chrome tarayıcılar (performans sorunlarınız varsa tarayıcınızın SSS bölümüne bakınız)
 
 ### Kurulum
 
 1. Bu sayfanın sağ tarafındaki **Releases** düğmesini tıklayarak **Ets2-Ats-Telemetri-Yoneticisi-Kurulum.exe** dosyasını indirin. 
 2. **Ets2-Ats-Telemetri-Yoneticisi-Kurulum.exe** dosyasını çalıştırın 
-3. Kurulumu gerçekleştirmek için "**Yükle**" butonuna tıklayın 
-4. Kurulum tamamlandığında "**Tamam**"ı tıklayın, ağ arayüzünüzü seçin ve kontrol panelinizi açmak için "**HTML5 Uygulama URL'si**" bağlantısını tıklayın
-5. **Bitti** (şimdi sunucunun nasıl kullanılacağını anlamak için *Kullanım* konusunu okuyabilirsiniz)
+3. Kurulumu gerçekleştirmek için bütün adımları sırasıyla takip ediniz 
+4. Kurulum tamamlandığında masaüstünüze gelen kısayolu çift tıklayıp çalıştırınız
+5. Kur butonuna basıp kurulumun bitmesini bekleyiniz
+6. Wifi ile bağlanmak için **Wi-Fi** seçeneğini, (uzaktan bir telefon ile bağlanacaksanız bunu kullanın) kişisel bilgisayarınızda bir tarayıcıda çalıştıracaksanız **Loopback Pseudo-Interface 1** seçeneğini seçiniz.
+7. HTML5 Uygulamada bulunan linke tıklayıp tarayıcınızda bağlantıyı açınız.
+8. Oyununuzu çalıştırınız (Ets 2 veya Ats) 
 
 ### Kaldırma
 
 Sunucu beklentilerinizi karşılamadıysa ve onu kaldırmaya karar verirseniz:
 
-1. Euro Truck Simulator / American Truck Simulator'dan çıkış
+1. Euro Truck Simulator / American Truck Simulator'dan çıkış yapınız
 2. Sunucunun menüsünden seçim yapın: Sunucu -> Kaldır
 3. Açılan pencerede "**Kaldır**" düğmesini tıklayın
-4. **Bitti**
+4. NOT: Eğer hatalarla birlikte kaldırıldıysa lütfen kurulum dizinini ve oyununuzda bulunan telemetry-server.dll dosyasını silip Steam'den oyun dosyalarını doğrulamayı unutmayınız.
 
 ##### NOT #####
 
