@@ -32,7 +32,7 @@ Bu, WebSockets tabanlı C# ile yazılmış [Euro Truck Simulator 2](http://www.e
 ### Kurulum
 
 1. Bu sayfanın sağ tarafındaki **Releases** düğmesini tıklayarak Telemetri-Yöneticisi-Kurulum.exe dosyasını indirin. 
-2. **Telemetri-Yöneticisi-Kurulum.exe** dosyasını çalıştırın 
+2. **Ets2-Ats-Telemetri-Yöneticisi-Kurulum.exe** dosyasını çalıştırın 
 3. Kurulumu gerçekleştirmek için "**Yükle**" butonuna tıklayın 
 4. Kurulum tamamlandığında "**Tamam**"ı tıklayın, ağ arayüzünüzü seçin ve kontrol panelinizi açmak için "**HTML5 Uygulama URL'si**" bağlantısını tıklayın
 5. **Bitti** (şimdi sunucunun nasıl kullanılacağını anlamak için *Kullanım* konusunu okuyabilirsiniz)
