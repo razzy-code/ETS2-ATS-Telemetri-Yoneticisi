@@ -20,8 +20,9 @@ Bu, WebSockets tabanlı C# ile yazılmış [Euro Truck Simulator 2](http://www.e
 
 ### Desteklenen oyunlar
 
-- Euro Truck Simulator 2 (32 bit veya 64 bit) sürüm 1.15+ (Steam veya Bağımsız). Çok oyunculu versiyonlar da desteklenmektedir. 
+- Euro Truck Simulator 2 (32 bit veya 64 bit) sürüm 1.15+ (Steam veya Bağımsız).  
 - American Truck Simulator (Steam veya Bağımsız)
+- Çok oyunculu versiyonlar da desteklenmektedir. (TruckersMP veya Oyun İçi Konvoylar)
 
 ### Test edilen tarayıcılar
 
